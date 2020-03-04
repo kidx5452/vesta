@@ -10,13 +10,18 @@ ssh root@your.server
 
 Download the installation script:
 ```bash
-curl -L -O 'https://raw.githubusercontent.com/pnduonghd/vesta/master/install/vst-install-rhel.sh'
+curl -L -O 'https://raw.githubusercontent.com/kidx5452/vesta/master/install/vst-install-rhel.sh'
 ```
 Run base
 
 ```bash
 bash vst-install-rhel.sh --nginx yes --phpfpm yes --apache no --named yes --remi yes --vsftpd no --proftpd no --iptables yes --fail2ban no --quota no --exim no --dovecot no --spamassassin no --clamav no --softaculous yes --mysql yes --postgresql no --hostname SCapital --email support@scapital.com
 ```
+Runphalcon
+```bash
+curl -L -O 'https://raw.githubusercontent.com/kidx5452/vesta/master/install/install_base.sh'
+```
+
 
 Then run full it:
 ```bash
