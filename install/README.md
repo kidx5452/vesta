@@ -12,7 +12,13 @@ Download the installation script:
 ```bash
 curl -L -O 'https://raw.githubusercontent.com/pnduonghd/vesta/master/install/vst-install-rhel.sh'
 ```
-Then run it:
+Run base
+
+```bash
+bash vst-install-rhel.sh --nginx yes --phpfpm yes --apache no --named yes --remi yes --vsftpd no --proftpd no --iptables yes --fail2ban no --quota no --exim no --dovecot no --spamassassin no --clamav no --softaculous yes --mysql yes --postgresql no --hostname SCapital --email support@scapital.com
+```
+
+Then run full it:
 ```bash
 bash vst-install-rhel.sh
 ```
