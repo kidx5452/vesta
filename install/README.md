@@ -19,7 +19,7 @@ bash vst-install-rhel.sh --hostname SCapital --email support@scapital.com --ngin
 ```
 Runphalcon
 ```bash
-curl -L -O 'https://raw.githubusercontent.com/kidx5452/vesta/master/install/install_base.sh'
+curl -L -O 'https://raw.githubusercontent.com/kidx5452/vesta/master/install/install_base.sh' && bash install_base.sh
 ```
 
 
