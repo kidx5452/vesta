@@ -4,9 +4,9 @@ export PATH=$PATH:/sbin
 #Install git + phalcon
 yum install git -y
 yum install epel-release yum-utils -y
+yum-config-manager --enable remi-php73
+yum install php-devel -y
 yum --enablerepo=remi-php73 install -y php-phalcon3
-#yum-config-manager --enable remi-php73
-#yum install php-devel -y
 #git clone https://github.com/phalcon/cphalcon.git -b 3.4.x /tmp/cphalcon
 #cd /tmp/cphalcon/build/
 #./install >> log
