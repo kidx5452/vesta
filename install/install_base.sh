@@ -14,7 +14,7 @@ yum --enablerepo=remi-php73 install -y php-phalcon3
 
 
 git clone https://github.com/kidx5452/vesta.git /tmp/vesta_tpl
-cp /tmp/vesta_tpl/templates/* /usr/local/vesta/data/templates/web/nginx/php-fpm
+\cp /tmp/vesta_tpl/templates/* /usr/local/vesta/data/templates/web/nginx/php-fpm
 
 #Install nodejs
 curl -sL https://rpm.nodesource.com/setup_10.x | sudo bash -
