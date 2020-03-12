@@ -15,7 +15,7 @@ curl -L -O 'https://raw.githubusercontent.com/kidx5452/vesta/master/install/vst-
 Run base
 
 ```bash
-bash vst-install-rhel.sh --hostname SCapital --email support@scapital.com --nginx yes --phpfpm yes --apache no --named yes --remi yes --vsftpd no --proftpd no --iptables yes --fail2ban no --quota no --exim no --dovecot no --spamassassin no --clamav no --softaculous yes --mysql yes --postgresql no
+bash vst-install-rhel.sh --hostname SCapital --email support@scapital.com --nginx yes --phpfpm yes --apache no --named yes --remi yes --vsftpd yes --proftpd no --iptables yes --fail2ban no --quota no --exim no --dovecot no --spamassassin no --clamav no --softaculous yes --mysql yes --postgresql no
 ```
 Runphalcon
 ```bash
