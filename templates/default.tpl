@@ -1,5 +1,5 @@
 server {
-    listen      %web_port%;
+    listen      *:%web_port%;
     server_name %domain_idn% %alias_idn%;
     root        %docroot%;
     index       index.php index.html index.htm;
