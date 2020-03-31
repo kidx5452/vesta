@@ -31,6 +31,7 @@ if [ $CONTINUTEPROCESS -eq 1 ]
 then
 walletPath=/home/$user/btc
 mkdir -p ${walletPath}
+chown -R ${user}.${user} ${walletPath}
 mkdir -p /root/.bitcoin_${user}
 
 bitcoin-cli stop
